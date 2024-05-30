@@ -1,0 +1,36 @@
+{
+  "appId": "PROGRAM-ai-topic-mobile",
+  "appName": "ai专题报表",
+  "iconUrl": "<%= PROJECT_ICON_HREF %>",
+  "debug": true,
+  "darkmode": true,
+  "pages": [
+    {
+      "fullScreen": false,
+      "name": "index",
+      "navigation": {
+        "title": "<%= PAGE_NAME %>",
+        "backgroundColor": "@navBgColor",
+        "frontColor": "@frontColor"
+      },
+      "pageType": "web",
+      "path": "index.html",
+      "pullDownRefresh": false,
+      "statusBarTextLightMode": false
+    },
+    {
+      "fullScreen": false,
+      "name": "about",
+      "navigation": {
+        "title": "<%= PAGE_NAME %>",
+        "backgroundColor": "@navBgColor",
+        "frontColor": "@frontColor"
+      },
+      "pageType": "web",
+      "path": "about.html",
+      "pullDownRefresh": false,
+      "statusBarTextLightMode": false
+    }
+  ],
+  "root": "index"
+}
