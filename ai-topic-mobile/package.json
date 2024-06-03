@@ -30,7 +30,8 @@
     "codegen": "^0.1.0",
     "core-js": "^3.6.5",
     "vue-i18n": "^8.26.7",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vxe-table": "^3.8.6"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
